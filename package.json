@@ -1,0 +1,33 @@
+{
+  "name": "lab-19-app",
+  "version": "1.0.0",
+  "description": "File Writer for Message Queue Server",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint \"**/*.js\"",
+    "test-watch": "jest --watchAll",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chloieparsons-401-advanced-javascript/lab-19-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chloieparsons-401-advanced-javascript/lab-19-app/issues"
+  },
+  "homepage": "https://github.com/chloieparsons-401-advanced-javascript/lab-19-app#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "dotenv": "^8.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
